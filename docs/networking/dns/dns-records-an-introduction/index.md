@@ -231,7 +231,7 @@ An *SRV record* or *service record* matches up a specific service that runs on y
 Here's a breakdown of the elements in an SRV record:
 
 -   **Service**: The name of the service must be preceded by an underscore (**\_**) and followed by a period (**.**). The service could be something like **\_xmpp.**
--   **Protocol**: The name of the protocol must be proceeded by an underscore (**\_**) and followed by a period (**.**). The protocol could be something like **\_tcp.**
+-   **Protocol**: The name of the protocol must be preceded by an underscore (**\_**) and followed by a period (**.**). The protocol could be something like **\_tcp.**
 -   **Domain**: The name of the domain that will receive the original traffic for this service.
 -   **Priority**: The first number (**10** in the example above) allows you to set the priority for the target server. You can set different targets with different priorities, which allows you to have a fallback server (or servers) for that service. Lower numbers have a higher priority.
 -   **Weight**: If two records have the same priority, weight is used instead.
